@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\img",
-    "\\_data"
+    "\\_includes",
+    "\\_includes\\css"
   ],
-  "SelectedNode": "\\img\\LOGO.png",
   "PreviewInSolutionExplorer": false
 }
