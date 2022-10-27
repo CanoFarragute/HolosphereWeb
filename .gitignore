@@ -9,3 +9,4 @@ _site
 vendor
 .vscode/
 0.1.0
+Gemfile.lock
