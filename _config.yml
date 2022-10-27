@@ -62,4 +62,9 @@ address:
 
 # Build settings
 markdown: kramdown
+encoding: utf-8
 permalink: pretty
+
+exclude:
+    - .vs
+    - .gitignore

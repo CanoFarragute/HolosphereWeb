@@ -1,9 +1,11 @@
+{% assign home_data = site.data.comic.data %}
+
 <!-- Services Section -->
     <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Get the comics</h2>
+                    <h2 class="section-heading">Consigue los comics</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
@@ -11,8 +13,8 @@
                 <div class="col-md-4">
                    <img class="img-store-comic img-responsive" src="img/comics/1prize.png" alt="">
                    <a href="https://sowl.co/KaBti" class="page-scroll btn btn-xl">Get it now</a>
-                    <h4 class="service-heading">Firestarter</h4>
-                    <p class="text-muted">Agni is willing to do anything to get her hands on the HOLOESPHERE and break the spell that binds her to the terrible demon Luciphiros.</p>
+                    <h4 class="service-heading">{{ home_data.comic1_title }}</h4>
+                    <p class="text-muted">Desafiando a los dioses y al destino, Agn est dispuesta a lo que sea para hacerse con la HOLOESFERA y as romper el hechizo que la une al terrible demonio Luciphiros.</p>
                 </div>
                 <div class="col-md-4">
                     <img class="img-store-comic img-responsive" src="img/comics/2prize.png" alt="">
