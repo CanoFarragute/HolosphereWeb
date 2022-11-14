@@ -1,4 +1,4 @@
-{% assign home_data = site.data.comic.data %}
+{% assign home_data = site.data.comics.data %}
 
 <!-- Services Section -->
     <section id="services">
@@ -13,20 +13,20 @@
                 <div class="col-md-4">
                    <img class="img-store-comic img-responsive" src="img/comics/1prize.png" alt="">
                    <a href="https://sowl.co/KaBti" class="page-scroll btn btn-xl">Get it now</a>
-                    <h4 class="service-heading">{{ home_data.comic1_title }}</h4>
-                    <p class="text-muted">Desafiando a los dioses y al destino, Agn est dispuesta a lo que sea para hacerse con la HOLOESFERA y as romper el hechizo que la une al terrible demonio Luciphiros.</p>
+                    <h4 class="service-heading">{{ home_data.comic1_title | escape}}</h4>
+                    <p class="text-muted">{{ home_data.comic1_description | escape}}</p>
                 </div>
                 <div class="col-md-4">
                     <img class="img-store-comic img-responsive" src="img/comics/2prize.png" alt="">
-                   <a href="https://sowl.co/KaBti" class="page-scroll btn btn-xl">Get it now</a>
-                    <h4 class="service-heading">The color of magic</h4>
-                    <p class="text-muted">Valf, the most wanted air pirate, wants the HOLOESPHERE as much as Agni does. Does this make them rivals or allies?</p>
+                   <a href="https://sowl.co/5ivRk" class="page-scroll btn btn-xl">Get it now</a>
+                    <h4 class="service-heading">{{ home_data.comic2_title | escape}}</h4>
+                    <p class="text-muted">{{ home_data.comic2_description | escape}}</p>
                 </div>
                 <div class="col-md-4">
                     <img class="img-store-comic img-responsive" src="img/comics/3prize.png" alt="">
-                   <a href="https://sowl.co/KaBti" class="page-scroll btn btn-xl">Get it now</a>
-                    <h4 class="service-heading">Dungeons & Dragons</h4>
-                    <p class="text-muted">To get hold of the HOLOESPHERE, Agni and his friends must escape from some dungeons... where dragons are everywhere!</p>
+                   <a href="https://sowl.co/WqZFs" class="page-scroll btn btn-xl">Get it now</a>
+                    <h4 class="service-heading">{{ home_data.comic3_title | escape}}</h4>
+                    <p class="text-muted">{{ home_data.comic3_description | escape}}</p>
                 </div>
             </div>
         </div>
