@@ -10,3 +10,6 @@ vendor
 .vscode/
 0.1.0
 Gemfile.lock
+
+# Local Netlify folder
+.netlify
